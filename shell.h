@@ -10,9 +10,8 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <string.h>
-#define MAX_COMMAND_LENGTH 1024
-void _prompt(void);
-void exec_cmd(char *command);
-char *_input(void);
+#define MAX_VALUE 1024
+int _printf(const char* format, ...);
+
 #endif
 
