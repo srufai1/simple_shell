@@ -11,7 +11,6 @@
 #include <fcntl.h>
 #include <string.h>
 #define MAX_VALUE 1024
-int _printf(const char* format, ...);
-
+void _exec(char *command);
 #endif
 
